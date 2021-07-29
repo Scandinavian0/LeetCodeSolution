@@ -29,6 +29,7 @@ public class BeautifulArray {
         for (int i : left) {
             res[index++] = i * 2 - 1;
         }
+
         for (int i : right) {
             res[index++] = i * 2;
         }
